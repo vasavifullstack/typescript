@@ -4,10 +4,10 @@ var employeeName:string="vasavireddy";
 console.log(employee_ID);
 
 var company:string="tcs";
-console.log("i am working in",company "as a experience");
+console.log("i am working in",company ,"as a experience");
 
 var working:boolean =true;
-console.log("i am working in",company "is", working);
+console.log("i am working in",company ,"is", working);
 
 var Salary:any="1,00,000";
 var employeeDetails:string = Salary;//any type can be assigned to type of variable.
