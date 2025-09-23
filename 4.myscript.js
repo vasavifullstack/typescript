@@ -57,12 +57,12 @@ var test_Apply;
     test_Apply["apply"] = "apply for specific role";
     test_Apply["message"] = "successfully applied";
 })(test_Apply || (test_Apply = {}));
-var process = "successfully applied";
+var process = "login with userid and password";
 if (process == test_Apply.login) {
     console.log("error");
 }
 else
     (process == test_Apply.message);
 {
-    console.log(test_Apply.message);
+    console.log(process);
 }

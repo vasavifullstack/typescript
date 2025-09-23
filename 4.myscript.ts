@@ -52,10 +52,10 @@ enum test_Apply{
     apply="apply for specific role",
     message="successfully applied"
 }
-var process="successfully applied";
+var process="login with userid and password";
 if(process==test_Apply.login){
     console.log("error")
 }
 else(process==test_Apply.message){
-    console.log(test_Apply.message)
+    console.log(process)
 }
