@@ -57,5 +57,5 @@ if(process==test_Apply.login){
     console.log("error")
 }
 else(process==test_Apply.message){
-    console.log(test_Apply.message)
+    console.log(process)
 }
