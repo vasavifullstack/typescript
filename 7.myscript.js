@@ -13,6 +13,9 @@ class Customer1 {
         this.maincourse = "veg biryani";
         this.cooldrinks = "fruit fusion";
     }
+    bill() {
+        return 2000;
+    }
     allorder() {
         return ["veg rollers", "veg biryani", "fruit fusion"];
     }

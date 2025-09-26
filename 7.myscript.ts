@@ -40,10 +40,12 @@ interface customer_orders{
     allorder() : string[]                           //method
 }
 class Customer1 implements customer_orders{
-    starter :string= "veg rollers",
-    maincourse : string="veg biryani",
-    cooldrinks : string="fruit fusion",
-    bill()    : number=2000
+    starter :string= "veg rollers"
+    maincourse : string="veg biryani"
+    cooldrinks : string="fruit fusion"
+    bill()    : any{
+      return 2000;
+    }
     allorder() : string[]{
         return ["veg rollers","veg biryani","fruit fusion"]
     }

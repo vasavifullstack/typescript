@@ -17,6 +17,8 @@ var PersonDetails1 = {
     carName: "KIA",
     color: "white",
     speed: 10,
+    model: "shelters",
+    year: 2023
 };
 console.log(PersonDetails1.Name1);
 console.log(PersonDetails1.carName);

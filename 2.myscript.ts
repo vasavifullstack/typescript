@@ -14,7 +14,7 @@ var employeeDetails:string = Salary;//any type can be assigned to type of variab
 console.log(employeeDetails);
 
 var Property:unknown=false;
-var employeeDetails1:number=Property;//unknown type cannot be assigned to anytype like string,number.
+var employeeDetails1:number;   //unknown type cannot be assigned to anytype like string,number.
 console.log(employeeDetails1);
 //array
 var color:string[] =["pink","blue","black","white"];

@@ -20,7 +20,7 @@ console.log(vasaviAge1);
 type customer_ID=number;
 type Balance=number;
 type status =boolean;
-var customer_ID1:customer_ID="1001";
+var customer_ID1:customer_ID=1001;
 console.log(customer_ID1);
 
 type Name1=string;

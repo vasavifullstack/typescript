@@ -38,18 +38,14 @@ if (first_order == 1) {
 }
 else
     (first_order == 2);
-{
-    console.log("my first order is maincourse");
-}
+console.log("my first order is maincourse");
 //case2
 if (first_order == Hotel_orders.starters) {
     console.log("my first order is starters");
 }
 else
     (first_order == Hotel_orders.maincourse);
-{
-    console.log("maincourse");
-}
+console.log("maincourse");
 var test_Apply;
 (function (test_Apply) {
     test_Apply["register"] = "register for test by enter with userid and password";
@@ -63,6 +59,4 @@ if (process == test_Apply.login) {
 }
 else
     (process == test_Apply.message);
-{
-    console.log(process);
-}
+console.log(process);

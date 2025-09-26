@@ -35,16 +35,15 @@ var first_order=2;
 if(first_order==1){
     console.log("my first order is starters");
 }
-else(first_order==2){
+else(first_order==2)
     console.log("my first order is maincourse");
-}
 //case2
 if(first_order==Hotel_orders.starters){
     console.log("my first order is starters");
 }
-else(first_order==Hotel_orders.maincourse){
+else(first_order==Hotel_orders.maincourse)
     console.log("maincourse");
-}
+
 
 enum test_Apply{
     register="register for test by enter with userid and password",
@@ -56,6 +55,5 @@ var process="login with userid and password";
 if(process==test_Apply.login){
     console.log("error")
 }
-else(process==test_Apply.message){
+else(process==test_Apply.message)
     console.log(process)
-}

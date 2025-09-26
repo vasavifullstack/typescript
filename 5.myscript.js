@@ -9,7 +9,7 @@ console.log(customer_Name1);
 var vasaviAge = 23;
 var vasaviAge1 = 23;
 console.log(vasaviAge1);
-var customer_ID1 = "1001";
+var customer_ID1 = 1001;
 console.log(customer_ID1);
 var employeeNames = { Name1: "manvi", Name2: "sathvik" };
 var { Name1, Name2 } = employeeNames;

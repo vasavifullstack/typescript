@@ -1,10 +1,13 @@
 //contract for class to access all members should be use in that class.
 interface car_purchase{
+    Name1    : string
     carName  :string
     model    :string
     color    :string
     year     :number
     speed    :number
+    age      :number
+    salary   :number
 }
 var car_purchase={
     carName : "Benz",
@@ -32,6 +35,8 @@ var PersonDetails1:car_purchase={
     carName :  "KIA",
     color   :  "white",
     speed   : 10,
+    model   :"shelters",
+    year     :2023
 
 
 } 

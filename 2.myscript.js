@@ -10,7 +10,7 @@ var Salary = "1,00,000";
 var employeeDetails = Salary; //any type can be assigned to type of variable.
 console.log(employeeDetails);
 var Property = false;
-var employeeDetails1 = Property; //unknown type cannot be assigned to anytype like string,number.
+var employeeDetails1; //unknown type cannot be assigned to anytype like string,number.
 console.log(employeeDetails1);
 //array
 var color = ["pink", "blue", "black", "white"];
